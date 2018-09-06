@@ -35,4 +35,4 @@ RUN wget https://github.com/samtools/htslib/releases/download/${HTSLIB_VERSION}/
   && rm ../htslib-${HTSLIB_VERSION}.tar.bz2 
 
 # Predefined supported reference databases to be pre-downloaded to this image. side notes: h - for human, m - for mouse
-RUN for db in GRCh37.75 GRCm38.74; do java -jar $SNPEFF_JAR download $db; done
+RUN for db in GRCh37.75 GRCm38.75; do java -jar $SNPEFF_JAR download $db; done
