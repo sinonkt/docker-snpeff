@@ -1,7 +1,7 @@
 FROM openjdk:8-slim
 
 ENV SNPEFF_HOME=/opt/snpEff \
-  SNPEFF_JAR=opt/snpEff/snpEff.jar \
+  SNPEFF_JAR=/opt/snpEff/snpEff.jar \
   HTSLIB_VERSION=1.9 \
   PATH=$APP_HOME:$PATH
 
