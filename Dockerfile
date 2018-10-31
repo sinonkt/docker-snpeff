@@ -14,6 +14,7 @@ ENV PATH=$APP_HOME/vt:$PATH
 RUN apt-get update && \
   apt-get -y install \
   wget \ 
+  git \
   unzip \
   bzip2 \
   build-essential \ 
